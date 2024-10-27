@@ -1,5 +1,5 @@
 # Tasks:
-- Make appropriate transformations in map_annotated before handling missing values.
+- Make appropriate transformations (wrote about most of them in `map_annotated.py`) before handling missing values.
   1. Merge columns together into new columns and drop all the old ones that were previously separate. Similar columns become one umbrella column. Ex. "Respondent used e-cigarettes due to exposure from friends, media, or family" encompasses multiple columns and reduces dimensions.
   2. Use one-hot encoding to separate a categorical labeled columns into separate columns for each category. Ex. Ages 0-13, 14-18, 19+ become their own categories.
   3. Consider combining attributes together that aren't necessarily similar but may be correlated.
