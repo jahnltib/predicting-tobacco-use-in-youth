@@ -18,10 +18,10 @@ Notes:
 
 questions = {
     "Artificial_id": "Artificial Unique Identifier",
-    "LOCATION": "Where are you currently taking this survey?", # -> Categorical
-    "QN1": "How old are you?", # -> Categorical: 0-13, 14-18, 19+
-    "QN2": "What is your sex?", # -> Categorical
-    "QN3": "What grade are you in?", # -> Categorical: Middle School or High School
+    "LOCATION": "Where are you currently taking this survey?", # -> Categorical # REMOVE
+    "QN1": "How old are you?", # -> Categorical: 0-13, 14-18, 19+ (DONE)
+    "QN2": "What is your sex?", # -> Categorical (DONE)
+    "QN3": "What grade are you in?", # -> Categorical: Middle School or High School (DONE)
     "QN4A": "Are you Hispanic, Latino, Latina, or of Spanish origin? (No, not of Hispanic, Latino, Latina, or Spanish origin)", # REMOVE: to avoid Dummy Variable Trap
     "QN4B": "Are you Hispanic, Latino, Latina, or of Spanish origin? (Yes, Mexican, Mexican American, Chicano, or Chicana)",
     "QN4C": "Are you Hispanic, Latino, Latina, or of Spanish origin? (Yes, Puerto Rican)",
