@@ -62,7 +62,7 @@ questions = {
     "QN12I": "Why do you currently use e-cigarettes? (I can use them unnoticed at home or at school)", # REMOVE
     "QN12J": "Why do you currently use e-cigarettes? (I can use them to do tricks)", # REMOVE
     "QN12K": "Why do you currently use e-cigarettes? (I am curious about them)", # REMOVE
-    "QN12L": "Why do you currently use e-cigarettes? (Because I feel anxious, stressed, or depressed)", # MERGE to NC2: "Respondent has a bad mental state such as anxiety, stress, or depression"
+    "QN12L": "Why do you currently use e-cigarettes? (Because I feel anxious, stressed, or depressed)", 
     "QN12M": "Why do you currently use e-cigarettes? (To get a high or buzz from nicotine)", # REMOVE
     "QN12N": "Why do you currently use e-cigarettes? (I use them for some other reason)", # REMOVE
     "QN13": "Which of the following best describes the type of e-cigarette you have used in the past 30 days?", # REMOVE
