@@ -16,7 +16,7 @@ Notes:
 - Used Q39 and Q100,101 as target label
 """
 
-questions = {
+map = {
     "QN1": "How old are you?", # -> Categorical: 0-13, 14-18, 19+ (DONE)
     "QN2": "What is your sex?", # -> Categorical (DONE)
     "QN3": "What grade are you in?", # -> Categorical: Middle School or High School (DONE)
