@@ -17,8 +17,6 @@ Notes:
 """
 
 questions = {
-    "Artificial_id": "Artificial Unique Identifier",
-    "LOCATION": "Where are you currently taking this survey?", # -> Categorical # REMOVE
     "QN1": "How old are you?", # -> Categorical: 0-13, 14-18, 19+ (DONE)
     "QN2": "What is your sex?", # -> Categorical (DONE)
     "QN3": "What grade are you in?", # -> Categorical: Middle School or High School (DONE)
@@ -75,6 +73,7 @@ questions = {
     "QN14G": "During the past 30 days, what e-cigarette brands did you use? (HQD)", # REMOVE
     "QN14H": "During the past 30 days, what e-cigarette brands did you use? (Kangvape (including Onee Stick))", # REMOVE
     "QN14I": "During the past 30 days, what e-cigarette brands did you use? (Logic)", # REMOVE
+    "QN14J": "During the past 30 days, what e-cigarette brands did you use? (Mr.Fog)", # REMOVE
     "QN14K": "During the past 30 days, what e-cigarette brands did you use? (NJOY)", # REMOVE
     "QN14L": "During the past 30 days, what e-cigarette brands did you use? (SMOK (including NOVO))", # REMOVE
     "QN14M": "During the past 30 days, what e-cigarette brands did you use? (Suorin (including Air Bar))", # REMOVE
@@ -701,71 +700,4 @@ questions = {
     "QN147": "During the past two weeks, how often have you been bothered by any of the following problems? (Not being able to stop or control worrying)", # CATEGORICAL: 1 (Good mental state) or >1 Moderate to severe mental distress"
     "QN148": "During the past 12 months, how would you describe your grades in school?", # Tricky one
     "QN149": "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?", # CATEGORICAL: 0 (Good mental state) or 1 Moderate to severe mental distress"
-    "Q11n_TEXT": "Why did you first use an e-cigarette? (Specify)", # From this point on, all TEXT columns will be DROPPED
-    "Q12n_TEXT": "Why do you currently use e-cigarettes? (Specify)", #
-    "Q14o_TEXT": "During the past 30 days, what e-cigarette brands did you use? (Specify)", #
-    "Q18a_k_TEXT": "In the past 30 days when you used e-cigarettes, what flavors did you use? (Specify)", #
-    "Q18b_j_TEXT": "In the past 30 days when you used cigars, cigarillos, or little cigars, what flavors did you use? (Specify)", #
-    "Q18c_j_TEXT": "In the past 30 days when you used smokeless tobacco, what flavors did you use? (Specify)", #
-    "Q18d_j_TEXT": "In the past 30 days when you used snus, what flavors did you use? (Specify", #
-    "Q18e_k_TEXT": "In the past 30 days that you used nicotine pouches, what flavors did you use? (Specify)", #
-    "Q18f_k_TEXT": "In the past 30 days when you used oral nicotine products, what flavors did you use? (Specify)", #
-    "Q18g_j_TEXT": "In the past 30 days when you used hookah or waterpipe, what flavors did you use? (Specify)", #
-    "Q18h_k_TEXT": "In the past 30 days when you used heated tobacco products, what flavors did you use? (Specify)", #
-    "Q18i_j_TEXT": "In the past 30 days when you smoked pipes filled with tobacco, what flavors did you use? (Specify)", #
-    "Q18j_j_TEXT": "In the past 30 days when you used bidis, what flavors did you use? (Specify", #
-    "Q18k_j_TEXT": "In the past 30 days when you used roll-your-own cigarettes, what flavors did you use? (Specify)", #
-    "Q20_TEXT": "Did any of the flavors that you used in the past 30 days have a name that did not describe a specific flavor, such as “solar,” “purple,” “jazz,” “island bash,” “fusion” or some other word or phrase? (Specify)", #
-    "Q21a_h_TEXT": "During the past 30 days, how did you get your e-cigarette devices, pods, cartridges, or e-liquid refills? (Specify)", #
-    "Q21b_h_TEXT": "During the past 30 days, how did you get your cigarettes? (Specify)", #
-    "Q21c_h_TEXT": "During the past 30 days, how did you get your cigars, cigarillos, or little cigars? (Specify)", #
-    "Q21d_h_TEXT": "During the past 30 days, how did you get your chewing tobacco, snuff, or dip? (Specify)", #
-    "Q21e_h_TEXT": "During the past 30 days, how did you get your snus? (Specify)", #
-    "Q21f_h_TEXT": "During the past 30 days, how did you get your nicotine pouches? (Specify)", #
-    "Q21g_h_TEXT": "During the past 30 days, how did you get your oral nicotine products? (Specify", #
-    "Q21h_h_TEXT": "During the past 30 days, how did you get your hookah tobacco? (Specify", #
-    "Q21i_h_TEXT": "During the past 30 days, how did you get your heated tobacco products? (Specify", #
-    "Q21j_h_TEXT": "During the past 30 days, how did you get your pipe tobacco? (Specify)", #
-    "Q21k_h_TEXT": "During the past 30 days, how did you get your bidis? (Specify)", #
-    "Q21l_h_TEXT": "During the past 30 days, how did you get your roll-your-own cigarettes? (Specify", #
-    "Q22a_l_TEXT": "During the past 30 days, where did you buy your e-cigarette devices, pods, cartridges, or e-liquid refills? (Specify)", #
-    "Q22b_l_TEXT": "During the past 30 days, where did you buy your cigarettes? (Specify)", #
-    "Q22c_l_TEXT": "During the past 30 days, where did you buy your cigars, cigarillos, or little cigars? (Specify)", #
-    "Q22d_l_TEXT": "During the past 30 days, where did you buy your chewing tobacco, snuff, or dip? (Specify)", #
-    "Q22e_l_TEXT": "During the past 30 days, where did you buy your snus? (Specify)", #
-    "Q22f_l_TEXT": "During the past 30 days, where did you buy your nicotine pouches? (Specify", #
-    "Q22g_l_TEXT": "During the past 30 days, where did you buy your oral nicotine products? (Specify", #
-    "Q22h_l_TEXT": "During the past 30 days, where did you buy your hookah tobacco? (Specify", #
-    "Q22i_l_TEXT": "During the past 30 days, where did you buy your heated tobacco products? (Specify", #
-    "Q22j_l_TEXT": "During the past 30 days, where did you buy your pipe tobacco? (Specify)", #
-    "Q22k_l_TEXT": "During the past 30 days, where did you buy your bidis? (Specify)", #
-    "Q22l_l_TEXT": "During the past 30 days, where did you buy your roll-your-own cigarettes? (Specify", #
-    "Q24d_TEXT": "During the past 30 days, which of the following e-cigarette product(s) did you get or buy from another person? (Specify", #
-    "Q29j_TEXT": "When you tried to quit using e-cigarettes, did you use any of the following? (Specify", #
-    "Q34d_TEXT": "Have you ever vaped any of the following substances (even once)? (Specify", #
-    "Q42l_TEXT": "During the past 30 days, what brands of cigarettes did you smoke? (Specify)", #
-    "Q57m_TEXT": "During the past 30 days, what brands of cigars, cigarillos, or little cigars did you smoke? (Specify)", #
-    "Q60_TEXT": "Did any of the flavors that you used in the past 30 days have a name that did not describe a specific flavor, such as “solar,” “purple,” “jazz,” “island bash,” “fusion” or some other word or phrase?", #
-    "Q70k_TEXT": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Specify)", #
-    "Q79h_TEXT": "During the past 30 days, what nicotine pouch brands did you use? (Specify)", #
-    "Q82_TEXT": "Did any of the flavors that you used in the past 30 days have a name that did not describe a specific flavor, such as “solar,” “purple,” “jazz,” “island bash,” “fusion” or some other word or phrase? (Specify)", #
-    "Q123i_TEXT": "On which social media sites have you seen posts or content related to e- cigarettes? (Specify)", #
-    "Q126g_TEXT": "Who usually posted the content related to e-cigarettes on your social media? (Specify)", #
-    "Q135e_TEXT": "While at school or on school property, have you ever seen anyone using an e-cigarette, such as JUUL, Vuse, NJOY, Elf Bar, or blu in any of the following locations? (Specify)", #
-    "Q141_TEXT": "Which of these options best describes your sexual orientation? (Specify)", #
-    "Q142_TEXT": "Which of the following best describes your gender? (Specify)", #
-    "AGEGRP": "The percentage of all students who reported their age to be < 18 years of age",
-    "SEX": "The percentage of all students who reported being either female or male",
-    "SCHOOLTYPE": "The percentage of all students who reported being in 6th, 7th, or 8th grade (middle school), or in 9th, 10th, 11th, or 12th grade (high school)",
-    "MRACE": "Number of races chosen from Q5",
-    "RACE_M": "Race/Eth - mult grp",
-    "RACE_S": "Race/Eth - no mult grp",
-    "SEXID": "The percentage of all students who reported being best described as straight/heterosexual, or gay/lesbian, or bisexual/pansexual/queer/asexual, or I not sure/questioning, or I do not know what this question means",
-    "SEXID2": "The percentage of all students who reported being best described as straight/heterosexual, or gay/lesbian/bisexual/pansexual/queer/asexual, or I am not sure/questioning, or I do not know what this question means",
-    "EBIDIS": "The percentage of all students who reported they have ever tried bidis (small brown cigarettes wrapped in a leaf)",
-    "PSU": "Primary Sampling Unit",
-    "PSU_NUM": "Primary Sampling Unit (Numeric)",
-    "Stratum": "Stratum for Variance",
-    "Stratum_num": "Stratum for Variance",
-    "WT_Analysis": "Final Weight",
 }
