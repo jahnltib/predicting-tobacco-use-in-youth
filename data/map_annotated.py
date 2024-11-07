@@ -491,6 +491,7 @@ questions = {
     "QN42M": "During the past 30 days, what brands of cigarettes did you smoke? (Not sure / I don’t know the brand", # REMOVE
     "QN43": "During the past 30 days, what brand of cigarettes did you usually smoke?", # REMOVE
     "QN44": "During the past 30 days, were the cigarettes that you usually smoked menthol?", # REMOVE
+    "QN45": "Earlier you mentioned that you got or bought your cigarettes from another person, such as a friend or family member during the past 30 days. How old was this person?", # REMOVE
     "QN46": "Are you seriously thinking about quitting cigarettes?", # REMOVE
     "QN47": "During the past 12 months, how many times have you stopped smoking cigarettes for one day or longer because you were trying to quit smoking cigarettes for good?", # REMOVE
     "QN48": "Have you ever been curious about smoking a cigarette?", # REMOVE , but possibly could combine with more columns
@@ -522,6 +523,7 @@ questions = {
     "QN58": "During the past 30 days, what brand of cigars, cigarillos, or little cigars did you usually use?", # REMOVE
     "QN59": "Did any of the flavors that you used in the past 30 days have names or descriptions that included the word “ice” or “iced” (for example, blueberry ice or strawberry ice)?", # REMOVE
     "QN60": "Did any of the flavors that you used in the past 30 days have a name that did not describe a specific flavor, such as “solar,” “purple,” “jazz,” “island bash,” “fusion” or some other word or phrase?", # REMOVE
+    "QN61": "Earlier you mentioned that you got or bought your cigars, cigarillos, or little cigars from another person, such as a friend or family member during the past 30 days. How old was this person?", # REMOVE
     "QN62": "Have you ever been curious about smoking a cigar, cigarillo, or little cigar?", # REMOVE
     "QN63": "Do you think you will try a cigar, cigarillo, or little cigar soon?", # REMOVE
     "QN64": "Do you think you will smoke a cigar, cigarillo, or little cigar in the next year?", # REMOVE
@@ -537,7 +539,8 @@ questions = {
     "QN70E": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Longhorn)", # REMOVE
     "QN70F": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Red Man)", # REMOVE
     "QN70G": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Red Seal)", # REMOVE
-    "QN70H": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Skoal)", # REMOVE
+    "QN70H": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Skoal)",
+    "QN70I": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Stoker's)", # REMOVE
     "QN70J": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Timber Wolf)", # REMOVE
     "QN70K": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Some other brand(s) not listed here)", # REMOVE
     "QN70L": "During the past 30 days, what brands of chewing tobacco, snuff, or dip did you use? (Not sure / I don’t know the brand)", # REMOVE
@@ -622,6 +625,7 @@ questions = {
     "QN126C": "Who usually posted the content related to e-cigarettes on your social media? (Celebrities or social media influencers)", # REMOVE 
     "QN126D": "Who usually posted the content related to e-cigarettes on your social media? (E-cigarette brands or sellers)", # REMOVE 
     "QN126E": "Who usually posted the content related to e-cigarettes on your social media? (Online news articles)", # REMOVE 
+    "QN126F": "Who usually posted the content related to e-cigarettes on your social media? (Public health campaigns (e.g., Truth Initiative, Real Cost))", # REMOVE 
     "QN126G": "Who usually posted the content related to e-cigarettes on your social media? (Other)", # REMOVE 
     "QN127": "During the past 7 days, on how many days did someone smoke tobacco products in your home while you were there?", # -> CATEGORICAL: 0 or >0 aka "Tobacco exposure at home or not"
     "QN128": "During the past 7 days, on how many days did you ride in a vehicle when someone was smoking a tobacco product?", # -> CATEGORICAL: 0 or >0 aka "Tobacco exposure in vehicles or not"
@@ -692,7 +696,9 @@ questions = {
     "QN139J": "How true are the following statements about your neighborhood? (In my neighborhood, the people with the most money are the drug dealers)", # CATEGORICAL: 3-4 (Unsafe Neighborhood) or 1-2 (Safe Neighborhood)
     "QN140": "Do you speak a language other than English at home?",
     "QN141": "Which of these options best describes your sexual orientation", # REMOVE
+    "QN141R": "Recode of QN141",
     "QN142": "Which of the following best describes your gender?", # REMOVE
+    "QN142R": "Recode of QN142",
     "QN143": "Are you transgender?",
     "QN144": "During the past two weeks, how often have you been bothered by any of the following problems? (Little interest or pleasure in doing things)", # CATEGORICAL: 1 (Good mental state) or >1 Moderate to severe mental distress"
     "QN145": "During the past two weeks, how often have you been bothered by any of the following problems? (Feeling down, depressed, or hopeless)", # CATEGORICAL: 1 (Good mental state) or >1 Moderate to severe mental distress"
